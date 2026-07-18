@@ -90,7 +90,7 @@ export default function Home() {
             </h1>
 
             <p className="lead">
-              I’m an IT student focused on building reliable, secure, and user-friendly applications using
+              I’m an IT graduate focused on building reliable, secure, and user-friendly applications using
               modern web technologies and best development practices.
             </p>
 
