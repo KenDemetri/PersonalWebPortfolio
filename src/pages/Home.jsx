@@ -232,12 +232,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="footer">
-        <div className="container footer-inner">
-          <span>© {new Date().getFullYear()} {NAME}</span>
-          <span className="small">Built with React + Vite</span>
-        </div>
-      </footer>
+
     </div>
   );
 }
