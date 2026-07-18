@@ -122,7 +122,7 @@ export default function Home() {
             </div>
 
             <div className="meta">
-              <p><strong>Role:</strong> BS Information Technology Student</p>
+              <p><strong>Role:</strong> BS Information Technology Graduate</p>
               <p><strong>Focus:</strong> Web Dev • Apps • QA-friendly builds</p>
               <p><strong>Location:</strong> Batangas, PH</p>
             </div>
