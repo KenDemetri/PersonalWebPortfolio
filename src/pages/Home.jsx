@@ -4,14 +4,17 @@ import profileImg from "../assets/profile.jpg";
 const NAME = "Ken Demetri B. Payo";
 
 const SKILLS = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "MySQL",
-  "Git/GitHub",
-  "Power BI",
-  "UIPath",
+  "C++, HTML, CSS, JavaScript",
+  "Flutter, React.js, Node.js, Express.js, Firebase",
+  "MySQL, Git/GitHub",
+  "Visual Studio Code, Microsoft Office, Canva, Figma",
+  "Google Docs, Google Sheets, Google Slides",
+  "Cisco Packet Tracer",
+  "Power BI, Smartbooks, UiPath",
+  "Database Management, Front-End Development, Back-End Development",
+  "Networking Fundamentals",
+  "Data Analytics and Visualization",
+  "Enterprise Resource Planning (ERP)",
 ];
 
 const PROJECTS = [
@@ -146,8 +149,7 @@ export default function Home() {
           <div className="grid-2">
             <div className="card padded">
               <p className="project-desc" style={{ margin: 0 }}>
-                I’m a dedicated IT student who enjoys creating practical systems that are clean, readable,
-                and easy to use—especially dashboards and portals.
+                A motivated BS Information Technology graduate with hands-on experience in web development, database management, networking fundamentals, and technical troubleshooting through academic projects and internship experience. Eager to apply strong technical and problem-solving skills in an IT Staff role while continuously learning and providing reliable technical support.
               </p>
 
               <div style={{ height: 12 }} />
@@ -159,7 +161,7 @@ export default function Home() {
             </div>
 
             <div className="card padded">
-              <p className="small"><strong>Skills / Technologies</strong></p>
+              <p className="small"><strong>Skills </strong></p>
               <div className="pills">
                 {SKILLS.map((s) => (
                   <span className="pill" key={s}>{s}</span>
